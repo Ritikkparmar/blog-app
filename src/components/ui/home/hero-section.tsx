@@ -37,7 +37,9 @@ const HeroSection = () => {
             <Button
               variant="outline"
               size="lg"
-              className="rounded-full px-8 font-light py-6 text-lg  dark:text-white"
+              className="rounded-full px-8 font-light
+              
+            py-6 text-lg  dark:text-white"
             >
               Explore Topics
             </Button>
