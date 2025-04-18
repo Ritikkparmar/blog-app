@@ -56,6 +56,7 @@ const Navbar = () => {
             >
               Dashboard
             </Link>
+         
           </div>
 
           {/* Rightsection */}
@@ -143,6 +144,13 @@ const Navbar = () => {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Dashboard
+            </Link>
+            <Link
+              href="/roadmap"
+              className="block px-3 py-2 text-base font-medium text-foreground"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Roadmaps
             </Link>
           </div>
 
